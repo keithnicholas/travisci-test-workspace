@@ -5,6 +5,7 @@ language: python
 #   - 3.6
 #   - 3.7
 #   - 3.8
+cache: pip
 before_install:
   - python --version
   - pip install -U pip
@@ -12,6 +13,6 @@ before_install:
   - pip install codecov
 # install:
   # - pip install ".[test]" . # install package + test dependencies
-script: make test # run tests
+script: test.py # run tests
 after_success:
   - codecov # submit coverage
