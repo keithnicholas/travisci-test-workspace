@@ -9,7 +9,7 @@ joblib==0.13.2
 json5==0.8.5
 jsonschema==3.0.2
 notebook==6.0.1
-numpy==1.16.0
+numpy==1.22.0
 opencv-python==4.2.0.34
 pandas==0.24.0
 pandocfilters==1.4.2
