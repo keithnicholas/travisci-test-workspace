@@ -5,7 +5,7 @@ flake8==3.8.3
 future==0.18.2
 graphviz==0.12
 idna==2.8
-joblib==0.13.2
+joblib==1.2.0
 json5==0.8.5
 jsonschema==3.0.2
 notebook==6.0.1
